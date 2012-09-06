@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body onload="loadSlide()">
+			<div class="header"></div>
+			<div class="arrow" id="previous" onmouseover="displayPreviousArrow()" onmouseout="hidePreviousArrow()" >
+				<label onclick="previousSlide()"><</label>
+			</div>
+			<div class="content">
+			</div>
+			<div class="arrow" id ="next" onmouseover="displayNextArrow()" onmouseout="hideNextArrow()" >
+				<label onclick="nextSlide()">></label>
+			</div>
+			<div class="footer"></div>
+			<script type="text/javascript" src="content/_slides.js"> </script>
+			<script type="application/javascript" src="script.js"> </script>
+	</body>
+</html>
